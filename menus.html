@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="important words of this web page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="images/food-munch-img.png" alt="Food-munch" class="food-munch-image">
+              </a>
+              <button title="Andhra food" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#whyChooseUs">Why Choose Us</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModel" href="#">Sign In</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="menus.html">Menus</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contactUs">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div class="modal" id="myModel">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Customer Login</h4>
+                  <button title="Modal" type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body d-flex flex-column justify-content-center align-items-center">
+                  <form action="#0" class="d-flex flex-column justify-content-center align-items-center w-75">
+                    <input class="m-2 w-100 user-input-field" type="email" placeholder="Enter email id *">
+                    <input class="m-2 w-100 user-input-field" type="password" placeholder="Password *">
+                    <div class="d-flex justify-content-between w-100">
+                      <div class="d-flex justify-content-start align-items-center">
+                        <input class="mr-2 form-check-input" type="checkbox" id="remember">
+                        <label class="text-secondary" for="remember">Remember me</label>
+                      </div>
+                      <p class="remember-text">Forgot pasword?</p>
+                    </div>
+                    <a href="./index.html" class="modal-login-btn align-self-start btn btn-success">Login</a>
+                  </form>
+                </div>
+          
+                <!-- Modal footer -->
+                <div class="modal-footer d-flex flex-row justify-content-center align-items-center">
+                  <p class="dont-have-acc-text">Don't have account?</p>
+                  <a href="#0" class="btn btn-outline-secondary signup-btn">Signup?</a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Breakfast Items</h2>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="images/Pesarattu-is-one-of-Andhra-Pradesh-food-items-696x392.jpg" alt="Pesarattu" class="rounded menu-image img-fluid">
+                        <h1>Pesarattu</h1>
+                        <p> Pesarattu is nothing but a yummy dosa made with green moong dal. This popular dish of Andhra Pradesh is often prepared for breakfast in Andhra Pradesh. Combining it with green and red chutney, this dish tastes fulfilling and flavorsome.</p>
+                        <h4 class="d-inline me-4">Rs.50</h4>
+                        <button type="button" class="btn btn-success text-white">Order Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="images/Pulihora-is-a-very-famous-dish-of-Andhra-Pradesh-696x696.jpg" alt="Pulihora" class="rounded img-fluid">
+                        <h1>Pulihora</h1>
+                        <p> Pulihora is an amazing dish of Andhra Pradesh where you will get the perfect amalgamation of sour and salty taste simultaneously. </p>
+                        <h4 class="d-inline me-4">Rs.40</h4>
+                        <button type="button" class="btn btn-success text-white">Order Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="images/medu-vada.jpg" alt="medu-vada" class="rounded img-fluid">
+                        <h1>Medu Vada</h1>
+                        <p>After deep frying it in the hot oil until it is brown, the Andhra delicious food of Medu Vada is being prepared. Unlike other dishes, it has various names in the state only such as Ulundu Vadai, Ulli Garelu, and Uzhunnu Vada. Prepared from the urad dal, Medu Vada is a famous food in Andhra Pradesh that you must try once.</p>
+                        <h4 class="d-inline me-4">Rs.40</h4>
+                        <button type="button" class="btn btn-success text-white">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mt-3">Lunch Items</h2>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="images/Gutti-Vankaya-Koora.jpg" alt="Pesarattu" class="rounded menu-image img-fluid">
+                        <h1>Gutti Vankaya</h1>
+                        <p> Gutti Vankaya Koora is one of the Andhra Pradesh food items that are quite popular in the state. This curry is prepared by using stuffed eggplant which is cooked in every other house in Andhra. With roasted spicy herbs and seasonings.</p>
+                        <h4 class="d-inline me-4">Rs.100</h4>
+                        <button type="button" class="btn btn-success text-white">Order Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="images/Gongura-Pickle-Ambadi-is-an-Andhra-Pradesh-pickle-696x511.jpg" alt="Pulihora" class="rounded img-fluid">
+                        <h1>Gongura Pickle</h1>
+                        <p> Gongura Pickle Ambadi is a fiery spicy pickle made with Ambadi leaves. This tasty pickle-chutney is not only famous in Andhra Pradesh but also prepared in Maharashtra. This special Andhra dish is well-blended with a variety of spices and can be served with flavored rice or a pair of hot chapatis.</p>
+                        <h4 class="d-inline me-4">Rs.120</h4>
+                        <button type="button" class="btn btn-success text-white">Order Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="images/Chepa-Pulusu-is-a-Andhra-Pradesh-famous-dish-696x522.jpg" alt="medu-vada" class="rounded img-fluid">
+                        <h1>Chepa Pulusu</h1>
+                        <p>Chepa Pulusu is yet another famous non-vegetarian dish of Andhra Pradesh that has a base of fish curry. Tossed in tamarind sauce and flavorsome herbs, this dish is prepared using a generous amount of oil and spices. It is a traditional food of Andhra Pradesh whose taste is to die for.</p>
+                        <h4 class="d-inline me-4">Rs.150</h4>
+                        <button type="button" class="btn btn-success text-white">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mt-3">Snack Items</h2>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="images/mirapakaya-bajji.jpg" alt="mirapakaya-bajji" class="rounded menu-image img-fluid">
+                        <h1>Mirapakaya Bajji</h1>
+                        <p>Mirapakaya Bajji is a famous snack in Andhra Pradesh that comes from a Telugu word. The chilli is coated with a besan paste, deep fried and pairs well with peanut chutney, coriander chutney or coconut chutney. The chillies used to make the bhajji are not the regular green chillies that we use but are long, thick and slightly spicy.</p>
+                        <h4 class="d-inline me-4">Rs.20</h4>
+                        <button type="button" class="btn btn-success text-white">Order Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="images/punugulu.jpg" alt="punugulu" class="rounded img-fluid">
+                        <h1>Punugulu</h1>
+                        <p>Punugulu is a common street food that is available across the state of Andhra Pradesh. Basically punugulu are popular beach side snack in Andra and it is served with chutney. Basically punugulu are popular beach side snack in Andra and it is served with chutney. Basically punugulu are popular beach side snack in Andra and it is served with chutney. It is usually made with rice and urad dal batter but can also be made with left over idli batter. This crispy fried snack tastes best with coconut or tomato chutney.
+
+                        </p>
+                        <h4 class="d-inline me-4">Rs.20</h4>
+                        <button type="button" class="btn btn-success text-white">Order Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="images/alasanda vada.jpg" alt="alasanda-vada" class="rounded img-fluid">
+                        <h1>Alasanda Vada</h1>
+                        <p>Andhra style alasanda vada is a healthy snack made with black-eyed beans, chopped onions, green chillies, curry leaves and spices like red chilli powder and turmeric powder. Ground pachadi or chutney make great accompaniments to the vada. The vada is very healthy and contains a lot of protein and fibre as it is only made with legumes. The vada is very Healthy</p>
+                        <h4 class="d-inline me-4">Rs.30</h4>
+                        <button type="button" class="btn btn-success text-white">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="contactUs" class="bg-dark pt-4 pb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <h3 class="text-white">Quick Links<h3>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none text-white">Home</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Why Choose Us</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Sign In</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Menus</a></li>
+                    <li><a href="#" class="text-decoration-none text-white">Contact Us</a></li>
+                </ul>
+              </div>
+            <div class="col-12 col-md-4">
+              <h3 class="text-white">Address<h3>
+                <p class="text-white">123 Balaji colony, Tirupati, Andhra pradesh, India.</p>
+              </div>
+            <div class="col-12 col-md-4">
+              <h2>Follow Us On</h2>
+              <div>
+                <a href="#0" title="Facebook" class="text-decoration-none icon-container m-3 p-3"><i class="fab fa-facebook icon"></i></a>
+                <a href="#0" title="Twitter" class="text-decoration-none icon-container m-3 p-3"><i class="fab fa-twitter icon"></i></i></a>
+                <a href="#0" title="Instagram" class="text-decoration-none icon-container m-3 p-3"><i class="fab fa-instagram icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    
+    <script src="https://cdn.usebootstrap.com/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.usebootstrap.com/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
